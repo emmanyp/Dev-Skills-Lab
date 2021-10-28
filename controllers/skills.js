@@ -5,6 +5,7 @@ function index(req, res) {
 		res.render('skills/index', {
 			skills: skills,
 			error: error,
+			time: req.time,
 		});
 	});
 }
